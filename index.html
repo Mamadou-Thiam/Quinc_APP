@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quinc_APP - Gestion de Quincaillerie</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f5f7fa;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #2c3e50;
+      padding: 20px 40px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1570129477492-45c003edd2be') no-repeat center center/cover;
+      color: white;
+      padding: 100px 40px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .section {
+      padding: 60px 40px;
+      text-align: center;
+    }
+    .section h3 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 30px;
+      width: 280px;
+      text-align: left;
+    }
+    .card h4 {
+      margin-top: 0;
+      color: #2c3e50;
+    }
+    .cta {
+      background-color: #3498db;
+      color: white;
+      padding: 40px;
+      text-align: center;
+    }
+    .cta a {
+      background-color: white;
+      color: #3498db;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Quinc_APP</h1>
+    <nav>
+      <a href="#features">Fonctionnalités</a>
+      <a href="#pricing">Tarifs</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Gérez votre quincaillerie efficacement</h2>
+    <p>La solution numérique complète pour suivre les stocks, ventes, commandes et performances de votre commerce.</p>
+  </section>
+
+  <section class="section" id="features">
+    <h3>Fonctionnalités clés</h3>
+    <div class="cards">
+      <div class="card">
+        <h4>Suivi des stocks</h4>
+        <p>Visualisez vos produits en temps réel avec alertes de rupture.</p>
+      </div>
+      <div class="card">
+        <h4>Historique des ventes</h4>
+        <p>Analysez vos performances avec des rapports dynamiques.</p>
+      </div>
+      <div class="card">
+        <h4>Multi-utilisateur</h4>
+        <p>Gérez les accès pour les vendeurs, gérants et assistants.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="pricing">
+    <h3>Tarification simple et accessible</h3>
+    <div class="cards">
+      <div class="card">
+        <h4>Gratuit</h4>
+        <p>Fonctionnalités de base pour démarrer.</p>
+      </div>
+      <div class="card">
+        <h4>Premium</h4>
+        <p>6 000 CFA / mois avec toutes les fonctionnalités pro.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <h3>Prêt à moderniser votre quincaillerie ?</h3>
+    <p>Rejoignez Quinc_APP dès aujourd’hui et transformez votre gestion !</p>
+    <a href="mailto:contact@quincapp.sn">Nous contacter</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Quinc_APP. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
